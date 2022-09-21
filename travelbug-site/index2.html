@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Travelbug</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+    <!--Nav Bar -->
+    <nav id="mainNavbar" class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white"
+                class="bi bi-bug-fill" viewBox="0 0 16 16">
+                <path
+                    d="M4.978.855a.5.5 0 1 0-.956.29l.41 1.352A4.985 4.985 0 0 0 3 6h10a4.985 4.985 0 0 0-1.432-3.503l.41-1.352a.5.5 0 1 0-.956-.29l-.291.956A4.978 4.978 0 0 0 8 1a4.979 4.979 0 0 0-2.731.811l-.29-.956z" />
+                <path
+                    d="M13 6v1H8.5v8.975A5 5 0 0 0 13 11h.5a.5.5 0 0 1 .5.5v.5a.5.5 0 1 0 1 0v-.5a1.5 1.5 0 0 0-1.5-1.5H13V9h1.5a.5.5 0 0 0 0-1H13V7h.5A1.5 1.5 0 0 0 15 5.5V5a.5.5 0 0 0-1 0v.5a.5.5 0 0 1-.5.5H13zm-5.5 9.975V7H3V6h-.5a.5.5 0 0 1-.5-.5V5a.5.5 0 0 0-1 0v.5A1.5 1.5 0 0 0 2.5 7H3v1H1.5a.5.5 0 0 0 0 1H3v1h-.5A1.5 1.5 0 0 0 1 11.5v.5a.5.5 0 1 0 1 0v-.5a.5.5 0 0 1 .5-.5H3a5 5 0 0 0 4.5 4.975z" />
+            </svg>travel<span>bug</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="#">Destinations</a>
+                <a class="nav-link" href="#">Trip Types</a>
+                <a class="nav-link" href="#">Special Offers</a>
+            </div>
+            <button id="mainNavButton" type="button" class="btn btn-secondary rounded-0">Reserve Online</button>
+        </div>
+    </nav>
+    <!-- Hero -->
+    <section class="container-fluid px-0">
+            <div id="heroimg" class="bg-image d-flex align-items-start justify-content-center" style="background-image: url('imgs/hero__image.jpg');">
+                    <div class="text-center pt-5">
+                        <h1 class="pt-5">Uncover the Hidden Wonders of the World</h1>
+                        <p class="px-5">Discover rich culture and limitless history from the Sahara to the Himalayas</p>
+                        <button type="button" class="btn btn-primary rounded-0">Search Trips</button>
+                    </div>
+            </div>
+    </section>
+    <!-- Section 1 -->
+    <section class="container-fluid pb-5" style="background-color: black;">
+        <div class="well-being d-flex align-items-center justify-content-center">
+            <div class="text-center py-4 px-2">
+                <h2>For Your Well-being</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, quis rerum! Numquam, quaerat expedita? Ad optio voluptate sit, iure minus illum vero ex accusamus? Autem pariatur adipisci quisquam obcaecati itaque?
+                Distinctio repellat libero qui vero sequi pariatur.</p>
+            </div>
+        </div>
+        <div class="row pt-md-5 d-flex">
+            <div class="col-md-6 order-1 order-md-1">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <img src="imgs/turtle.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <div class="col-md-6 order-2 order-md-2 text-center">
+                <h2 class="title">Health and Safety Protocols</h2>
+                <p class="text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-secondary rounded-0">Learn More</a>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- Section 2 -->
+    <section class="container-fluid px-0" style="background-color: white">
+        <div class="destinations d-flex align-items-center justify-content-center">
+            <div class="text-center py-4">
+                <h2>Where would you like to travel?</h2>
+                <p>We offer expeditions from a wide range of destinations. Want to climb the Pyraminds? Try a trip to Egypt. Or how about a boat ride down the Amazon River in Brazil? The options are endless.</p>
+                <a href="#">View all trips</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <a href="#">
+                <div class="card rounded-0 border-0">
+                    <img src="imgs/africa.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Africa</h4>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#">
+                <div class="card rounded-0 border-0">
+                    <img src="imgs/asia.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Asia</h4>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#">
+                <div class="card rounded-0 border-0">
+                    <img src="imgs/europe.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Europe</h4>
+                    </div>
+                </div>
+            </a>
+            </div>
+        </div>
+    </section>
+    <!-- Email CTA -->
+    <section class="container-fluid px-5 py-4 bg-image" style="background-image: url('imgs/volcano.jpg');">
+        <div class="text-center py-3">
+            <h2>Explore the world with Travelbug</h2>
+            <p>Sign up to receive the latest news and offers from Travelbug.</p>
+            <form>
+                <div class="form-group email-input">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email">
+                </div>
+                <p id="subText">Yes! I would like to receive updates, special offers, and other information from Travelbug. By creating an account, I agree to the Terms of Use and acknowledge that I have read the Privacy Policy.</p>
+                <button id="mainNavButton" type="button" class="btn btn-primary rounded-0">Sign Up</button>
+            </form>
+        </div>
+        
+    </section>
+    <footer class="px-0" style="background-color: black">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-6 col-md-3 mb-4 mb-md-0">
+                    <h5 class="text-uppercase pb-2">Plan a trip</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#"></a>Find a Trip</li>
+                        <li><a href="#"></a>Our Experts</li>
+                        <li><a href="#"></a>Special Offers</li>
+                        <li><a href="#"></a>Lifelong Explorer Program</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 mb-4 mb-md-0">
+                    <h5 class="text-uppercase pb-2">Support</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#"></a>Call Us</li>
+                        <li><a href="#"></a>Contact Us</li>
+                        <li><a href="#"></a>FAQ</li>
+                        <li><a href="#"></a>Travel Insurance</li>
+                        <li><a href="#"></a>Travel Agents</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 mb-4 mb-md-0">
+                    <h5 class="text-uppercase pb-2">Company</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#"></a>Terms & Conditions</li>
+                        <li><a href="#"></a>Terms of Use</li>
+                        <li><a href="#"></a>Privacy Policy</li>
+                        <li><a href="#"></a>Press Release</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 mb-4 mb-md-0">
+                    <h5 class="text-uppercase pb-2">Follow Us</h5>
+                    <ul class="list-unstyled mb-0 d-flex">
+                        <li><a class="" href="#"></a><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                          </svg></li>
+                        <li><a class="m-2" href="#"></a><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                          </svg></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="" async defer></script>
+</body>
+
+</html>
